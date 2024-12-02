@@ -1,0 +1,8 @@
+### Install
+1. [Install `awpy`](https://github.com/pnxenopoulos/awpy)
+2. Install python modules using `requirements.txt`
+
+### Usage
+Download a team's demos and label them in the following format: `<team_name>-<map_name>-<label>.dem`. Make sure `team_name` is exactly as it appears in the demo. `map_name` should be the name of the map without `de_`. `label` can be anything to describe the demo (e.g. `-big-loss-1`).
+
+Run the script `demo.py`. Enjoy!

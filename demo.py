@@ -28,7 +28,7 @@ def heat_map():
         print("Analyzing " + demo_dir + " ... " + "(" + str(idx+1) + "/" + str(len(demo_dirs)) + ")")
         splits = demo_dir.removesuffix(".dem").split("-")            
 
-        team_name = "Fake Hitters"
+        team_name = splits[0]
         map_name = splits[1]
         game_name = "-".join(splits[2:])
 
